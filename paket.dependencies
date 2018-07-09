@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+
+framework: net462
+
+github fsprojects/FSharp.TypeProviders.SDK src/ProvidedTypes.fsi
+github fsprojects/FSharp.TypeProviders.SDK src/ProvidedTypes.fs
+github fsprojects/FSharp.TypeProviders.SDK src/ProvidedTypesTesting.fs
+
+nuget FSharp.Core < 4.5
